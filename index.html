@@ -14,8 +14,12 @@
 
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                data-bs-target="#navbarSupportedContent" aria-controls="offcanvasScrolling">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <img src="images/profile.png" width="38" height="38" class="me-3" alt="Bootstrap">
-            <a class="navbar-brand" href="/index.html">Navbar</a>
+            <a class="navbar-brand" href="/index.html">MyBlogs</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -112,6 +116,29 @@
 
 
 
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">MyBlogs</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Blogs</a></li>
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <div class="row g-5 my-4 mx-4">
         <div class="col-md-8">
             <h3 class="pb-4 mb-4 fst-italic border-bottom">
@@ -179,7 +206,8 @@
                         should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
                     <li>Superscript <sup>text</sup> uses <code
                             class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript
-                        <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+                        <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
+                    </li>
                 </ul>
                 <p>Most of these elements are styled by browsers with few modifications on our part.</p>
                 <h2>Heading</h2>
@@ -310,6 +338,12 @@
     </div>
 
 
+
+
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+        <div class="mx-auto text-center">© 2022</div>
+    </footer>
 
 
 

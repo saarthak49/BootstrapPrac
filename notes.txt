@@ -1,0 +1,13 @@
+NOTE: hat aria-current is used to indicate the current information when a set of information is present on screen
+
+
+for example: aria-current="page" is used to indicate the current page in a set of naviagation links 
+
+
+similarly, aria-current="location" can be used to indicate the information in breadcrumbs
+
+
+similarly, aria-current="date" should be used when the information is to be conveyed about the current date in a set of dates.
+
+
+this information is conveyed to the screen reader.
